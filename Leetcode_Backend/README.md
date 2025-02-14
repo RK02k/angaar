@@ -90,27 +90,3 @@ During development, it's recommended to utilize the API locally. To do so, follo
 | _Skip & Limited Problems_          | `/problems?limit=number&skip=number`                     | Get a list of a specified **_number_** of problems skipping a specified **number** of problems.                              | TODO                                                              |
 | _Skip & Filter & Limited Problems_ | `/problems?tags=tag1+tag2+tag3&limit=number&skip=number` | Get a list of a specified **_number_** of problems based on selected **_tags_** skipping a specified **number** of problems. | TODO                                                              |
 
-## Author ✒️
-
-- [@alfaarghya](https://www.github.com/alfaarghya)
-
-## Contributor ✏️
-
-| Contributor                                        | Contribution                                                                     |
-| :------------------------------------------------- | :------------------------------------------------------------------------------- |
-| [@aryanpingle](https://www.github.com/aryanpingle) | AC submission                                                                    |
-| [@jamesh48](https://www.github.com/jamesh48)       | TypeScript Refactoring                                                           |
-| [@kvqn](https://www.github.com/kvqn)               | PORT environment variable                                                        |
-| [@changchunlei](https://github.com/changchunlei)   | New Endpoints - language stats, integrated user profile, contest and discussions |
-| [@merakesh99](https://github.com/merakesh99)       | Hot reload issue solved                                                          |
-| [@ajchili](https://github.com/ajchili)             | Skip param to fetch problems                                                     |
-| [@theinit01](https://github.com/theinit01)         | Temp fix for skip                                                                |
-| [@123xylem](https://github.com/123xylem)           | Add Descriptions and Methods to API route documentation.                         |
-| [@P-M-Manmohan](https://github.com/P-M-Manmohan)   | Added filtering based on difficulty                                              |
-
-## Connect with me 📲
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%2320232a.svg?style=normal&logo=linkedIn&logoColor=%230077B5)](https://linkedin.com/in/alfaarghya)
-[![Twitter](https://img.shields.io/badge/twitter-%2320232a.svg?style=normal&logo=twitter&logoColor=%230077B5)](https://twitter.com/alfaarghya)
-[![Instagram](https://img.shields.io/badge/Instagram-%2320232a.svg?style=normal&logo=instagram&logoColor=white)](https://www.instagram.com/alfaarghya)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%2320232a.svg?style=normal&logo=LeetCode&logoColor=%FFA116)](https://leetcode.com/alfaarghya/)
