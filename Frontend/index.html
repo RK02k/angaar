@@ -25,7 +25,7 @@
             }
 
             try {
-                const profileRes = await fetch(`http://127.0.0.1:5000/${username}`);
+                const profileRes = await fetch(`https://angaargfg.onrender.com/${username}`);
                 const profileData = await profileRes.json();
 
                 if (profileData.error) {

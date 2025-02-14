@@ -4,7 +4,7 @@ from flask_cors import CORS  # Import CORS
 from modules.scrap import scrap
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5500"}})
+CORS(app)  # Enable CORS for all routes
 api = Api(app)
 
 class geeksforgeeksAPI(Resource):
