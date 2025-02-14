@@ -1,15 +1,16 @@
 from flask import Flask
 from flask_restful import Api, Resource
+from flask_cors import CORS  # Import CORS
 from modules.scrap import scrap
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5500"}})
 api = Api(app)
 
 class geeksforgeeksAPI(Resource):
     def get(self, username):
         scrapper = scrap(username)
         return scrapper.fetchResponse() 
-
 
 api.add_resource(geeksforgeeksAPI, "/<string:username>")
 
